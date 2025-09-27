@@ -1,10 +1,10 @@
 import type { TaskStateModel } from './TaskStateModel';
 export type TaskModel = {
   id: string;
-  task: string;
+  taskName: string;
   duration: number;
   startDate: number;
-  completedDate: number | null;
+  completeDate: number | null;
   interruptDate: number | null;
   type: keyof TaskStateModel['config'];
 };
