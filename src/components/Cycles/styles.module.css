@@ -16,7 +16,7 @@
     background-color: var(--primary);
     border-radius: 50%;
 }
-.worktime{
+.workTime{
     background: var(--warning);
 }
 .shortBreakTime{
