@@ -5,7 +5,7 @@ import { taskReducer } from './taskReducer';
 import { TimerWorkerManager } from '../../workers/TimerWorkerManager';
 import { TaskActionTypes } from './taskActions';
 import { loadBeep } from '../../utils/loadBeep';
-import { TaskStateModel } from '../../models/TaskStateModel';
+import type { TaskStateModel } from '../../models/TaskStateModel';
 
 
 
